@@ -1,0 +1,59 @@
+.top-page{
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  background-color: silver;
+  height: 8vh;
+}
+
+.main-name{
+width: 10vw;
+font-size: 20px;
+padding-left: 20px;
+}
+
+.cook-image{
+  height: 6vh;
+  width: 4vw;
+  padding-right: px;
+}
+
+.lists-right {
+  display: flex;
+}
+
+
+.logout {
+  text-decoration: none;
+  padding-left: 3vw;
+  color: black;
+}
+
+.login {
+  text-decoration: none;
+  padding-left: 3vw;
+  color: black;
+}
+
+.sign-up {
+  text-decoration: none;
+  padding-left: 40vw;
+  color: black;
+}
+
+.user-nickname {
+  text-decoration: none;
+  padding-left: 40vw;
+  color: black;
+}
+
+footer {
+  width: 100vw;
+  background-color: silver;
+  color: #FFDAB9;
+  text-align: center;
+  height: 8vh;
+  bottom: 0;
+  position: absolute;
+  padding-top: 22px;
+}
