@@ -7,7 +7,6 @@
 |name               |string  |null: false|
 |email              |string  |null: false|
 |encrypted_password |string  |null: false|
-|birthday           |date    |null: false|
 
 ### Association
 
@@ -21,7 +20,6 @@
 |recipe     |string    |null: false      |
 |point      |string    |null: false      |
 |material   |string    |null: false      |
-|category_id|integer   |null: false      |
 |user       |references|foreign_key: true|
 
 ### Association
