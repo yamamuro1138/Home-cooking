@@ -8,52 +8,77 @@
 
 .main-name{
 width: 10vw;
-font-size: 20px;
+font-size: 23px;
 padding-left: 20px;
 }
 
 .cook-image{
   height: 6vh;
   width: 4vw;
-  padding-right: px;
+  position: absolute;
+  left: 28vw;
 }
 
 .lists-right {
-  display: flex;
+display: flex;
+position: absolute;
+right: 10vw;
 }
 
 
 .logout {
   text-decoration: none;
-  padding-left: 3vw;
-  color: black;
+  color: 	black;
 }
 
 .login {
   text-decoration: none;
-  padding-left: 3vw;
-  color: black;
+  color: 	black;
 }
 
 .sign-up {
   text-decoration: none;
-  padding-left: 40vw;
-  color: black;
+  color: 	black;
+  margin-right: 3vw;
 }
 
-.user-nickname {
+.user-name {
+margin: 0 3vw;
+text-decoration: none;
+color: 	black;
+}
+
+.post{
   text-decoration: none;
-  padding-left: 40vw;
-  color: black;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border: double 5px #4ec4d3;
+  color: blue;
 }
 
 footer {
   width: 100vw;
   background-color: silver;
-  color: #FFDAB9;
+  color: black;
   text-align: center;
   height: 8vh;
   bottom: 0;
   position: absolute;
   padding-top: 22px;
+}
+
+.background{
+  width: 100vw; 
+  height: 90vh;
+}
+
+.main{
+  position: relative;
+}
+
+.itiran{
+  position: absolute;
+  font-size: 50px;
+  left: 550px;
+  top: 50px;
 }
