@@ -78,7 +78,27 @@ footer {
 
 .itiran{
   position: absolute;
-  font-size: 50px;
-  left: 550px;
-  top: 50px;
+  left: 10vw;
+  top: 4vh;
+  background: #fff;
+  opacity: 0.8;
+  width: 82vw;
+  height: 75vh;
+}
+
+.title{
+  border: double 4px orange;/*線*/
+  position: absolute;
+  margin-left: 33vw;
+  font-size: 40px;
+}
+
+.cooking-image{
+  width: 30vh;
+  height: 20vh;
+}
+
+.cook-name{
+  font-size: 2.5vh;
+  margin-left: 3vw;
 }
