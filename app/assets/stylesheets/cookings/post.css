@@ -1,0 +1,91 @@
+body{
+  background-color: #FFC259;
+  height: 100vh;
+} 
+
+.cooking-post{
+  background-color: white;
+  width: 80vw;
+  height: 85vh;
+  margin: auto;
+}
+
+.cooking-post-title{
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.hissu{
+  color: red;
+  margin-left: 10vw;
+  text-decoration: underline;
+}
+
+.post-right-group{
+  float: right;
+  margin-top: 10vh;
+  margin-right: 5vw;
+}
+
+.post-left-group{
+  margin: 5vh 0 0 5vw;
+}
+
+.post-user-name{
+  margin: 0 16vw 2vh 0;
+  text-decoration: underline;
+}
+
+.post-cook-name{
+  margin: 2vh 20vw 0 0;
+}
+
+.post-name{
+  margin: 0 10vw 2vh 0;
+  text-align: center;
+  width: 240px;
+}
+
+.post-material{
+  resize: none;
+  width: 450px;
+  height: 130px;
+}
+
+.post-cook-recipe{
+  margin-top: 2vh;
+}
+
+.post-recipe{
+  margin-bottom: 2vh;
+  resize: none;
+  width:450px;
+  height:200px;
+}
+
+.post-point{
+  resize: none;
+  width: 350px;
+  height: 200px;
+}
+
+.post-cook-contents{
+  text-align: center;
+}
+
+.sell-btn{
+  background: greenyellow;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.back-btn{
+  text-decoration: none;
+  margin-left: 48%;
+  padding: 2px;
+  border: solid 2px;
+  background: ThreeDHighlight;
+  font-size: 20px;
+}

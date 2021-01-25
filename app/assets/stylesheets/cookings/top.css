@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding-left: 250px;
-  background-color: silver;
+  background-color: #FFE4C4;
   height: 8vh;
 }
 
@@ -58,7 +58,7 @@ color: 	black;
 
 footer {
   width: 100vw;
-  background-color: silver;
+  background-color: #FFE4C4;
   color: black;
   text-align: center;
   height: 8vh;
@@ -78,12 +78,12 @@ footer {
 
 .itiran{
   position: absolute;
-  left: 10vw;
-  top: 4vh;
   background: #fff;
   opacity: 0.8;
   width: 82vw;
   height: 75vh;
+  top: 4vh;
+  left: 10vw;
 }
 
 .title{

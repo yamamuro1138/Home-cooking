@@ -1,0 +1,44 @@
+<%= render "header"%>
+<body>
+ <div class="cooking-post">
+  <h2 class="cooking-post-title">料理情報を入力</h2>
+  <%= form_with local: true do |f| %>
+
+
+  <span class="hissu">※全項目必須入力です!!</span>
+  <div class="post-right-group">
+   <div class="post-user-name">
+    投稿者
+    <span><%#= %>山室大輔</span> <%# 仮で名前を入力。テーブルから名前を取得必要。%>
+   </div>
+
+   <div class="post-cook-image">
+    <%= f.file_field :image, id:"post-image" %>
+   </div>
+   <div class="post-cook-name">
+    料理名
+   </div>
+   <%= f.text_field :name, class: "post-name", placeholder: "例)親子丼(20文字まで)" %>
+   <div class ="post-cook-point">
+    ポイント
+   </div>
+   <%= f.text_area :point, class: "post-point", placeholder:"例）鶏肉と玉ねぎを切る際に、食べやすいように一口サイズに小さく切った。" %>
+  </div>
+  <div class="post-left-group">
+   <div class="post-cook-material">
+    材料
+   </div>
+   <%= f.text_area :material, class: "post-material", placeholder: "例）2人分&#13;&#10;①鳥もも肉1/2枚.②玉ねぎ1/2個.③卵3個&#13;&#10;④ご飯2杯分⑤生醤油大さじ2.⑥みりん大さじ1&#13;&#10;⑦砂糖大さじ1/2.⑧かつおだし150ml".html_safe %>
+   <div class="post-cook-recipe">
+    作り方
+   </div>
+   <%= f.text_area :recipe, class: "post-recipe", placeholder: "例）1.鶏肉を一口サイズに切り玉ねぎを薄切りにして卵は溶く。&#13;&#10;2.小鍋に合わせて煮立て、鶏肉に火が通れば卵を入れ半熟状態になれば火を止める。&#13;&#10;3.丼にご飯をよそい、のせれば完成。".html_safe %>
+  </div> 
+  <div class="post-cook-contents">
+   <%= f.submit "投稿する", class: "sell-btn"%>
+  </div> 
+  <% end %>
+  <%= link_to '戻る', root_path, class: "back-btn"%>
+ </div>
+</body>
+<%= render "footer"%> 
