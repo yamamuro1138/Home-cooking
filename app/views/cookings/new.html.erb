@@ -1,5 +1,5 @@
 <%= render "header"%>
-<body>
+<div class="main">
  <div class="cooking-post">
   <h2 class="cooking-post-title">料理情報を入力</h2>
   <%= form_with local: true do |f| %>
@@ -40,5 +40,5 @@
   <% end %>
   <%= link_to '戻る', root_path, class: "back-btn"%>
  </div>
-</body>
+</div>
 <%= render "footer"%> 
