@@ -1,0 +1,27 @@
+.show-main{
+  display: flex;
+}
+
+.show-left-group{
+  margin: 30vh 0 0 23vw;
+}
+
+.show-right-group{
+  margin: 6vh 5vw 0 auto;
+  border: 3px solid #444444;
+  font-size: 15px;
+  height: 70vh;
+  width: 55vw;
+}
+
+.show-cook{
+  border: 3px solid #444444;
+  text-align: center;
+  padding: 10px;
+  background: #CCCCCC;
+}
+
+.show-value{
+  border: 3px solid #444444;
+  padding: 20px;
+}
