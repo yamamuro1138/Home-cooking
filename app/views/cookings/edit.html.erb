@@ -1,7 +1,7 @@
 <%= render "header"%>
 <body>
  <div class="cooking-post">
-  <h2 class="cooking-post-title">料理情報を入力</h2>
+  <h2 class="cooking-post-title">料理投稿編集ページ</h2>
   <%= form_with local: true do |f| %>
 
 
@@ -32,10 +32,10 @@
    <div class="post-cook-recipe">
     作り方
    </div>
-   <%= f.text_area :recipe, class: "post-recipe", placeholder: "例 &#13;&#10;1.鶏肉を一口サイズに切り玉ねぎを薄切りにして卵は溶く。&#13;&#10;2.小鍋に合わせて煮立て、鶏肉に火が通れば卵を入れ半熟状態になれば火を止める。&#13;&#10;3.丼にご飯をよそい、のせれば完成。".html_safe %>
+   <%= f.text_area :recipe, class: "post-recipe", placeholder: "例）&#13;&#10;1.鶏肉を一口サイズに切り玉ねぎを薄切りにして卵は溶く。&#13;&#10;2.小鍋に合わせて煮立て、鶏肉に火が通れば卵を入れ半熟状態になれば火を止める。&#13;&#10;3.丼にご飯をよそい、のせれば完成。".html_safe %>
   </div> 
   <div class="post-cook-contents">
-   <%= f.submit "投稿する", class: "sell-btn"%>
+   <%= f.submit "編集する", class: "sell-btn"%>
   </div> 
   <% end %>
   <%= link_to '戻る', root_path, class: "back-btn"%>
