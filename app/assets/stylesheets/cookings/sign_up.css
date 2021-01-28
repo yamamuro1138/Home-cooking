@@ -20,7 +20,7 @@
 }
 
 h2{
-  margin-left: 25vw;
+  margin-left: 24.3vw;
   padding-left: 0.5vw;
   font-size: 30px;
   font-weight: 500;
@@ -28,12 +28,12 @@ h2{
 
 .field{
   padding: 20px;
-  margin-left: 22vw;
+  margin-left: 18vw;
 }
 
 .actions{
   padding: 20px;
-  margin-left: 24.5vw;
+  margin-left: 23.8vw;
 }
 
 .user-botan{
@@ -48,4 +48,8 @@ h2{
   left: 35vw;
   font-weight: 400px;
   color: white;
+}
+
+.user-field{
+  width: 20vw;
 }
