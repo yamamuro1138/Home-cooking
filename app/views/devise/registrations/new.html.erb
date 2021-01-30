@@ -2,10 +2,10 @@
   <img src="https://images.pexels.com/photos/4259140/pexels-photo-4259140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="背景" class="user-background">
 
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-    <%= render "devise/shared/error_messages", resource: resource %>
 
    <div class="user-format">
       <h2>新規登録</h2>
+       <%= render "devise/shared/error_messages", model: f.object %>
      <div class="field">
        <%= f.label :nickname %><br />
        <%= f.text_field :nickname, autofocus: true, autocomplete: "nickname", placeholder: "例) 山田太郎", class: "user-field" %>
