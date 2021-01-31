@@ -12,6 +12,11 @@ font-size: 23px;
 padding-left: 20px;
 }
 
+.main-title-name{
+  text-decoration: none;
+  color: black;
+}
+
 .cook-image{
   height: 6vh;
   width: 4vw;
