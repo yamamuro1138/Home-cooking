@@ -4,12 +4,12 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-      has_many :cokkings
+      has_many :cookings
 
       with_options presence: true do
         validates :nickname 
         validates :password_confirmation
-        end
+      end
         validates :password, format: { with: /\A(?=.*?[a-z])(?=.*?\d)[a-z\d]{8,}\z/i }, confirmation: true  
-        validates :email, uniqueness: true    
+        validates :email, uniqueness: true
 end
