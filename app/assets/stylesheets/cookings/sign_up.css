@@ -8,6 +8,17 @@
   width: 105vw;
 }
 
+.sign-title-name{
+  position: absolute;
+  text-decoration: none;
+  color: black;	
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  top: 3vh;
+  left: 42vw;
+  color: 	#FFDEAD;
+}
+
 .user-format{
   position: absolute;
   background: #fff;
