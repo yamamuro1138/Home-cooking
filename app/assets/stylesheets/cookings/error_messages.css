@@ -1,0 +1,18 @@
+.error_explanation{
+  display: flex;
+  position: absolute;
+  top: 30vh;
+}
+
+.error-message {
+  font-size: 0.9vw;
+  color: rgb(182, 48, 0);
+}
+
+.login-flash-message{
+  display: flex;
+  position: absolute;
+  top: 30vh;
+  font-size: 0.9vw;
+  color: rgb(182, 48, 0);
+}

@@ -1,16 +1,18 @@
 <header>
  <div class="top-page">
    <div class="main-name">
-        おうち料理
+        <%= link_to "homecooking", root_path, class:"main-title-name" %>
    </div>
-     <img src="https://png.pngtree.com/png-clipart/20190603/original/pngtree-vintage-restaurant-labels-png-image_145183.jpg" alt="おうち料理" class="cook-image">
 
    <ul class="lists-right">
-    <li><%= link_to '新規登録', "#", class:"sign-up"%></li>
-    <li><%= link_to 'ログイン', "#", class:"login"%></li>
-    <%# <li><%= link_to '料理投稿する', "#", class:"post"%>
-    <%# <li><%= link_to '山室大輔', "#", class:"user-name"%>
-    <%# <li><%= link_to 'ログアウト', "#",method: :delete, class:"logout"%>
+    <% if user_signed_in? %>
+   <li><%= link_to '料理投稿する', "/cookings/new", class:"post" %></li>
+    <li><%= link_to current_user.nickname, "#", class:"user-name" %></li>
+    <li><%= link_to 'ログアウト', "/users/sign_out", method: :delete, class:"logout" %></li>
+    <% else %>
+    <li><%= link_to '新規登録', "/users/sign_up" , class:"sign-up"%></li>
+    <li><%= link_to 'ログイン', "/users/sign_in", class:"login"%></li>
+    <% end %>
    </ul>
  </div>
 </header>

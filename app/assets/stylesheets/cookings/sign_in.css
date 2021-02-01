@@ -1,0 +1,25 @@
+.user-signin{
+  position: absolute;
+  background: #fff;
+  opacity: 0.8;
+  top: 13vh;
+  left: 20vw;
+  width: 60vw;
+  height: 75vh;
+  padding-top: 10vh;
+}
+
+.actionss{
+  padding: 20px;
+  margin-left: 22.5vw;
+}
+
+.user-login{
+  background: #00DD00;
+  padding: 5px 40px 5px 40px;
+  border-radius: 6px;
+}
+
+.user-login-field{
+  width: 20vw;
+}

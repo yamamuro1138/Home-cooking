@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding-left: 250px;
-  background-color: #FFE4C4;
+  background-color:	#FFE4C4;
   height: 8vh;
 }
 
@@ -12,11 +12,11 @@ font-size: 23px;
 padding-left: 20px;
 }
 
-.cook-image{
-  height: 6vh;
-  width: 4vw;
-  position: absolute;
-  left: 28vw;
+.main-title-name{
+  text-decoration: none;
+  color: black;	
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .lists-right {
