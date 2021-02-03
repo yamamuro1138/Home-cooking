@@ -12,9 +12,10 @@
     <span><%#= %>山室大輔</span> <%# 仮で名前を入力。テーブルから名前を取得必要。%>
    </div>
 
-   <div class="post-cook-image">
-    <%= f.file_field :image, id:"post-image" %>
-   </div>
+   <label class="post-cook-image">
+      <%= image_tag('no_image.png', class: 'icon') %>
+      <%= f.file_field :image, id:"post-image", style: 'display:none' %>
+   </label>
    <div class="post-cook-name">
     料理名
    </div>

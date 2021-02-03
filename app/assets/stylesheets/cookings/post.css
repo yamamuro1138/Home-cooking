@@ -3,6 +3,12 @@
   height: 90vh;
 } 
 
+.icon{
+  width: 300px;
+  height: 170px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
 .cooking-post{
   background-color: white;
   width: 80vw;
@@ -25,7 +31,7 @@
 
 .post-right-group{
   float: right;
-  margin-top: 10vh;
+  margin-top: 3vh;
   margin-right: 5vw;
 }
 
@@ -68,7 +74,7 @@
 .post-point{
   resize: none;
   width: 350px;
-  height: 200px;
+  height: 120px;
 }
 
 .post-cook-contents{
