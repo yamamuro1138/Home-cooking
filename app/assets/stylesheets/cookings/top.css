@@ -87,9 +87,8 @@ footer {
 }
 
 .title{
-  border: double 4px orange;/*線*/
   position: absolute;
-  margin-left: 33vw;
+  margin-left: 35vw;
   font-size: 40px;
 }
 
