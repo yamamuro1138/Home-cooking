@@ -17,7 +17,7 @@ class CookingsController < ApplicationController
 
   private
   
-  def message_params
+  def cooking_params
     params.require(:cooking).permit(:name, :recipe, :point, :material, :image).merge(user_id: current_user.id)
   end
 
