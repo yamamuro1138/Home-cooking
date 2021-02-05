@@ -9,6 +9,17 @@ class CookingsController < ApplicationController
     @cooking = Cooking.new
   end
 
+  def create
+    @cooking = Cooking.new(cooking_params)
+
+    if @cooking.valid?
+      @cooking.save
+      redirect_to root_path
+    else
+      render :new
+    end
+  end
+
   def edit
   end
 
