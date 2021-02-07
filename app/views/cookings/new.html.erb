@@ -2,18 +2,19 @@
 <div class="main">
  <div class="cooking-post">
   <h2 class="cooking-post-title">料理情報を入力</h2>
-  <%= form_with local: true do |f| %>
+  <%= form_with model: @cooking, local: true do |f| %>
 
-
-  <span class="hissu">※全項目必須入力です!!</span>
+   <%= render "devise/shared/error_messages", model: f.object %>
+   
+  <span class="hissu">※全項目必須!!</span>
   <div class="post-right-group">
    <div class="post-user-name">
     投稿者
-    <span><%#= %>山室大輔</span> <%# 仮で名前を入力。テーブルから名前を取得必要。%>
+    <span><%= current_user.nickname  %></span> <%# 仮で名前を入力。テーブルから名前を取得必要。%>
    </div>
-
+   
    <label class="post-cook-image">
-      <%= image_tag('no_image.png', class: 'icon') %>
+      <%= image_tag('no_image.png', class: 'icon', id: "post-icon-image") %>
       <%= f.file_field :image, id:"post-image", style: 'display:none' %>
    </label>
    <div class="post-cook-name">
