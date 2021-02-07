@@ -36,7 +36,7 @@
 }
 
 .post-left-group{
-  margin: 5vh 0 0 5vw;
+  margin: 5vh 0 0 2vw;
 }
 
 .post-user-name{
@@ -83,7 +83,7 @@
 
 .sell-btn{
   background: greenyellow;
-  margin-bottom: 10px;
+  margin: 14px 0 15px 0;
   padding: 2px;
   font-size: 20px;
 }
