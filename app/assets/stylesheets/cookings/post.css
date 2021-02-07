@@ -41,7 +41,12 @@
 
 .post-user-name{
   margin: 0 16vw 2vh 0;
-  text-decoration: underline;
+  text-decoration: underline #8B0000;
+}
+
+.post-nickname{
+  font-size: 18px;
+  color: #8B0000;
 }
 
 .post-cook-name{

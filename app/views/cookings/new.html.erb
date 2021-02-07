@@ -10,9 +10,9 @@
   <div class="post-right-group">
    <div class="post-user-name">
     投稿者
-    <span><%= current_user.nickname  %></span> <%# 仮で名前を入力。テーブルから名前を取得必要。%>
+    <span class="post-nickname"><%= current_user.nickname  %></span> 
    </div>
-   
+
    <label class="post-cook-image">
       <%= image_tag('no_image.png', class: 'icon', id: "post-icon-image") %>
       <%= f.file_field :image, id:"post-image", style: 'display:none' %>
