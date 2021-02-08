@@ -26,13 +26,13 @@ RSpec.describe Cooking, type: :model do
       it 'recipeが空だと投稿できない' do
         cooking.recipe = ''
         cooking.valid?
-        expect(cooking.errors.full_messages).to include 'レシピを入力してください' 
+        expect(cooking.errors.full_messages).to include 'レシピを入力してください'
       end
 
       it 'pointが空だと投稿できない' do
         cooking.point = ''
         cooking.valid?
-        expect(cooking.errors.full_messages).to include 'ポイントを入力してください' 
+        expect(cooking.errors.full_messages).to include 'ポイントを入力してください'
       end
 
       it 'materialが空だと投稿できない' do
@@ -46,6 +46,6 @@ RSpec.describe Cooking, type: :model do
         cooking.valid?
         expect(cooking.errors.full_messages).to include '画像を入力してください'
       end
-    end  
+    end
   end
 end
