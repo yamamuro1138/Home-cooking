@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   let(:user) { FactoryBot.build(:user) }
-  let(:another_user) { FactoryBot.build(:user)}
- 
+  let(:another_user) { FactoryBot.build(:user) }
+
   describe 'ユーザー新規登録' do
     context '新規登録ができる場合' do
       it '全ての項目の入力が存在すれば登録できる' do
