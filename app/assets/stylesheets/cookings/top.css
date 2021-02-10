@@ -50,10 +50,9 @@ color: 	black;
 
 .post{
   text-decoration: none;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  border: double 5px #4ec4d3;
-  color: blue;
+  color: #770000;
+  font-size: 17px;
+  font-weight: 900;
 }
 
 footer {
@@ -81,23 +80,52 @@ footer {
   background: #fff;
   opacity: 0.8;
   width: 82vw;
-  height: 75vh;
-  top: 4vh;
-  left: 10vw;
+  height: 85vh;
+  left: 9vw;
+  top: 0.01vh;
 }
 
 .title{
   position: absolute;
   margin-left: 35vw;
-  font-size: 40px;
+  font-size: 35px;
+  border: double 5px #770000;
+  color: #770000;
+  padding: 5px;
+  top: 12px;
 }
 
-.cooking-image{
-  width: 30vh;
-  height: 20vh;
+.cooking-lists{
+  width: 90vw;
+  display: flex;
+  margin-top: 13vh;
+  flex-wrap: wrap;
+}
+
+.list{
+  padding: 2vh 1vw 0 1vw;
+}
+
+.item-img{
+  width: 14vw;
+  height: 15vh;
 }
 
 .cook-name{
-  font-size: 2.5vh;
-  margin-left: 3vw;
+  font-size: 18px;
+  padding-left: 70px;
+}
+
+.lists{
+  margin: 23vh 0 0 33.5vw;
+}
+
+.cooking-kari-image{
+  width: 14vw;
+  height: 15vh;
+}
+
+.cooking-kari-name{
+  font-size: 18px;
+  margin-left: 2.5vw;
 }
