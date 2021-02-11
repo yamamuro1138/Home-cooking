@@ -7,14 +7,14 @@
      </div>
       <ul class="cooking-lists">
           <% @cookings.each do |cooking|%> 
+          <%#= link_to cooking_path(cooking.id) do %>
           <li class="list">
-              <%#= link_to do%> 
-            <div class="cooking-image">
-               <%=image_tag cooking.image, class:"item-img"%>
-              <h3 class="cook-name">
-                <%= cooking.name %>
-              </h3>
-            </div>
+                <%=image_tag cooking.image, class:"item-img" %>
+                <%= image_tag 'arrow_top.png', class:"more-image" %>
+
+                <h3 class="cook-name">
+                  <%= cooking.name %>
+                </h3>
           </li>
           <%# end %>
           <% end %>
