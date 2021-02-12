@@ -102,6 +102,10 @@ footer {
   flex-wrap: wrap;
 }
 
+.link{
+  text-decoration: none; 
+}
+
 .list{
   padding: 2vh 1vw 0 1vw;
 }
@@ -114,6 +118,7 @@ footer {
 .cook-name{
   font-size: 18px;
   padding-left: 70px;
+  color: black;
 }
 
 .lists{
@@ -128,4 +133,3 @@ footer {
 .cooking-kari-name{
   font-size: 18px;
   margin-left: 2.5vw;
-}
