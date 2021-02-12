@@ -4,7 +4,17 @@
   <div class="show-main">
    <div class="show-left-group">
      <%= image_tag @cooking.image ,class:"show-image"%>
+
+    <% if user_signed_in?  %>
+    <% if current_user.id == @cooking.user_id %>
+   <p class="cooking-btn">
+     <%= link_to '編集', class: "cooking-red-btn" %>
+      <%= link_to '削除' , class:'cooking-destroy' %>
+   </p>
+    <% end %>
+    <% end %>
    </div>
+
 
    <table class="show-right-group">
      <tbody>
