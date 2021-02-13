@@ -3,8 +3,16 @@
 }
 
 .show-left-group{
-  margin: 30vh 0 0 23vw;
+  margin: 15vh 0 0 6vw;
 }
+
+.cooking-btn{
+  text-align: center;
+  margin: 30px;
+  word-spacing: 100px;
+  font-size: 20px;
+}
+
 
 .show-right-group{
   margin: 6vh 5vw 0 auto;
@@ -19,9 +27,18 @@
   text-align: center;
   padding: 10px;
   background: #CCCCCC;
+  font-weight: 900;
+  font-size: 20px;
+  width: 16vw;
 }
 
 .show-value{
   border: 3px solid #444444;
   padding: 20px;
 }
+
+.show-image{
+  width: 30vw;
+  height: 40vh;
+}
+

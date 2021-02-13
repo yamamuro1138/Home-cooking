@@ -3,33 +3,40 @@
   <h2 class="cooking-post-title">料理詳細ページ</h2>
   <div class="show-main">
    <div class="show-left-group">
-     <div class="show-image">
-       画像
-     </div>
-     <%#= image_tag ,class:"show-image"%>
+     <%= image_tag @cooking.image ,class:"show-image"%>
+
+    <% if user_signed_in?  %>
+    <% if current_user.id == @cooking.user_id %>
+   <p class="cooking-btn">
+     <%= link_to '編集', class: "cooking-red-btn" %>
+      <%= link_to '削除' , class:'cooking-destroy' %>
+   </p>
+    <% end %>
+    <% end %>
    </div>
+
 
    <table class="show-right-group">
      <tbody>
        <tr>
          <th class="show-cook">投稿者</th>
-         <td class="show-value"><%#= %>山室大輔</td>
+         <td class="show-value"><%= @cooking.user.nickname %></td>
        </tr>
         <tr>
          <th class="show-cook">料理名</th>
-         <td class="show-value"><%#= %>親子丼</td>
+         <td class="show-value"><%= @cooking.name %></td>
        </tr>
         <tr>
          <th class="show-cook">材料</th>
-         <td class="show-value"><%#= %>2人分 ①鳥もも肉1/2枚 ②玉ねぎ1/2個 ③卵3個 <p>④ご飯2杯分 ⑤生醤油大さじ2 ⑥みりん大さじ1</p> ⑦砂糖大さじ1/2 ⑧かつおだし150ml"</td>
+         <td class="show-value"><%= @cooking.recipe %></td>
        </tr>
         <tr>
          <th class="show-cook">作り方</th>
-         <td class="show-value"><%#= %>1.鶏肉を一口サイズに切り玉ねぎを薄切りにして卵は溶く。<p>2.小鍋に合わせて煮立て、鶏肉に火が通れば卵を入れ半熟状態になれば火を止める。</p>3.丼にご飯をよそい、のせれば完成</td>
+         <td class="show-value"><%= @cooking.material %></td>
        </tr>
         <tr>
          <th class="show-cook">ポイント</th>
-         <td class="show-value"><%#= %>鶏肉と玉ねぎを切る際に、食べやすいように一口サイズに小さく切った</td>
+         <td class="show-value"><%= @cooking.point %></td>
        </tr>
      </tbody>
    </table>
