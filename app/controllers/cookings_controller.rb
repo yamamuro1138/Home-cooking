@@ -21,6 +21,7 @@ class CookingsController < ApplicationController
   end
 
   def edit
+    redirect_to root_path unless current_user.id == @cooking.user_id
   end
 
   def show
