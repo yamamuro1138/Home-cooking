@@ -96,9 +96,9 @@ footer {
 }
 
 .cooking-lists{
-  width: 90vw;
+  width: 85vw;
   display: flex;
-  margin-top: 13vh;
+  margin: 13vh 0 0 4vw;
   flex-wrap: wrap;
 }
 
@@ -107,7 +107,7 @@ footer {
 }
 
 .list{
-  padding: 2vh 1vw 0 1vw;
+  padding: 7vh 2vw 0 2vw;
 }
 
 .item-img{
@@ -117,8 +117,8 @@ footer {
 
 .cook-name{
   font-size: 18px;
-  padding-left: 70px;
   color: black;
+  width: 11em;
 }
 
 .lists{
@@ -133,3 +133,4 @@ footer {
 .cooking-kari-name{
   font-size: 18px;
   margin-left: 2.5vw;
+}
