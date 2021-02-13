@@ -24,6 +24,14 @@ class CookingsController < ApplicationController
     redirect_to root_path unless current_user.id == @cooking.user_id
   end
 
+  def update
+    if @cooking.update(cooking_params)
+      redirect_to cooking_path
+    else
+      render :edit
+    end
+  end
+
   def show
   end
 
