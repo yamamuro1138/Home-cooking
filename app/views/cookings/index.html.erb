@@ -10,11 +10,11 @@
           <%= link_to cooking_path(cooking.id), class:"link" do %>
           <li class="list">
                <%=image_tag cooking.image, class:"item-img"%>
+              <% end %>
               <h3 class="cook-name">
               <%= cooking.name %>
               </h3>
           </li>
-          <% end %>
           <% end %>
           <% if @cookings.length == 0 %>
           <li class="lists">
