@@ -14,7 +14,7 @@
    </div>
 
    <label class="post-cook-image">
-      <%= image_tag('no_image.png', class: 'icon', id: "post-icon-image") %>
+      <%= image_tag(@cooking.image, class: 'icon', id: "post-icon-image") %>
       <%= f.file_field :image, id:"post-image", class:"uploader", style: 'display:none' %>
    </label>
    <div class="post-cook-name">
