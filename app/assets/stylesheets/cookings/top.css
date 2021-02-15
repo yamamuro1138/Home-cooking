@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding-left: 250px;
-  background-color:	#FFE4C4;
+  background-color:	#FAEBD7;
   height: 8vh;
 }
 
@@ -57,7 +57,7 @@ color: 	black;
 
 footer {
   width: 100vw;
-  background-color: #FFE4C4;
+  background-color: #FAEBD7;
   color: black;
   text-align: center;
   height: 8vh;
