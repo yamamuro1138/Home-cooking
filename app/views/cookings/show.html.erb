@@ -8,7 +8,7 @@
     <% if user_signed_in?  %>
     <% if current_user.id == @cooking.user_id %>
    <p class="cooking-btn">
-     <%= link_to '編集', class: "cooking-red-btn" %>
+     <%= link_to '編集', edit_cooking_path, class: "cooking-red-btn" %>
       <%= link_to '削除' , class:'cooking-destroy' %>
    </p>
     <% end %>

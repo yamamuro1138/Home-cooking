@@ -13,6 +13,16 @@
   font-size: 20px;
 }
 
+.cooking-red-btn{
+  text-decoration: none;
+  color: black;
+  background-color: greenyellow;
+  border-radius: 5px;
+  padding: 7px;
+  border: solid 1.5px;
+
+}
+
 
 .show-right-group{
   margin: 6vh 5vw 0 auto;

@@ -4,10 +4,11 @@
 } 
 
 .icon{
-  width: 300px;
-  height: 170px;
+  width: 20.8vw;
+  height: 21.7vh;
   border: 1px solid gray;
   border-radius: 10px;
+  cursor: pointer;
 }
 .cooking-post{
   background-color: white;
@@ -23,7 +24,7 @@
   margin-left: 0.2vw;
 }
 
-.hissu{
+.mandatory{
   color: red;
   margin-left: 10vw;
   text-decoration: underline;
@@ -56,13 +57,13 @@
 .post-name{
   margin: 0 10vw 2vh 0;
   text-align: center;
-  width: 240px;
+  width: 17vw;
 }
 
 .post-material{
   resize: none;
-  width: 450px;
-  height: 130px;
+  width: 31.3vw;
+  height: 16.5vh;
 }
 
 .post-cook-recipe{
@@ -72,14 +73,14 @@
 .post-recipe{
   margin-bottom: 2vh;
   resize: none;
-  width:450px;
-  height:200px;
+  width: 31.3vw;
+  height: 25.2vh;
 }
 
 .post-point{
   resize: none;
-  width: 350px;
-  height: 120px;
+  width: 45vh;
+  height: 15.2vh;
 }
 
 .post-cook-contents{
@@ -91,6 +92,8 @@
   margin: 14px 0 15px 0;
   padding: 2px;
   font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .back-btn{
@@ -100,4 +103,6 @@
   border: solid 2px;
   background: ThreeDHighlight;
   font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
