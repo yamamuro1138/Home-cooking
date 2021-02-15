@@ -2,7 +2,7 @@ class CookingsController < ApplicationController
   before_action :cooking_find, only: [:show, :edit, :update, :destroy]
 
   def index
-    @cookings = Cooking.all
+    @cookings = Cooking.all.page(params[:page]).per(8)
   end
 
   def new
