@@ -20,7 +20,15 @@
   border-radius: 5px;
   padding: 7px;
   border: solid 1.5px;
+}
 
+.cooking-destroy{
+  text-decoration: none;
+  color: black;
+  background-color: greenyellow;
+  border-radius: 5px;
+  padding: 7px;
+  border: solid 1.5px;
 }
 
 
