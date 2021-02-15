@@ -35,6 +35,11 @@ class CookingsController < ApplicationController
   def show
   end
 
+  def destroy
+    @cooking.destroy if @cooking.user_id == current_user.id
+    redirect_to :root
+  end
+
   private
 
   def cooking_params

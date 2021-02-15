@@ -9,7 +9,7 @@
     <% if current_user.id == @cooking.user_id %>
    <p class="cooking-btn">
      <%= link_to '編集', edit_cooking_path, class: "cooking-red-btn" %>
-      <%= link_to '削除' , class:'cooking-destroy' %>
+      <%= link_to '削除', cooking_path(@cooking.id), method: :delete, class:'cooking-destroy' %>
    </p>
     <% end %>
     <% end %>
