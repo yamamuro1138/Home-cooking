@@ -4,8 +4,8 @@
 } 
 
 .icon{
-  width: 300px;
-  height: 170px;
+  width: 20.8vw;
+  height: 21.7vh;
   border: 1px solid gray;
   border-radius: 10px;
   cursor: pointer;
@@ -57,13 +57,13 @@
 .post-name{
   margin: 0 10vw 2vh 0;
   text-align: center;
-  width: 240px;
+  width: 17vw;
 }
 
 .post-material{
   resize: none;
-  width: 450px;
-  height: 130px;
+  width: 31.3vw;
+  height: 16.5vh;
 }
 
 .post-cook-recipe{
@@ -73,14 +73,14 @@
 .post-recipe{
   margin-bottom: 2vh;
   resize: none;
-  width:450px;
-  height:200px;
+  width: 31.3vw;
+  height: 25.2vh;
 }
 
 .post-point{
   resize: none;
-  width: 350px;
-  height: 120px;
+  width: 45vh;
+  height: 15.2vh;
 }
 
 .post-cook-contents{
