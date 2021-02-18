@@ -35,11 +35,11 @@ Home cooking
 [![Image from Gyazo](https://i.gyazo.com/d3cafef68c6a86cf9eb328ddf620d2df.jpg)](https://gyazo.com/d3cafef68c6a86cf9eb328ddf620d2df)
 
 ## ローカル環境での動作方法
-`$ https://github.com/yamamuro1138/Home-cooking`
-`$ cd Home-cooking`
-`$ bundle install`
-`$ rails db:create`
-`$ rails db:migrate`
+`$ https://github.com/yamamuro1138/Home-cooking`  
+`$ cd Home-cooking`  
+`$ bundle install`  
+`$ rails db:create`  
+`$ rails db:migrate`  
 
 ## ER図
 [![Image from Gyazo](https://i.gyazo.com/421b5007644355c2aae31f4c42913ce8.png)](https://gyazo.com/421b5007644355c2aae31f4c42913ce8)
