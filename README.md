@@ -28,9 +28,9 @@ http://54.199.124.177/
 - 料理一覧機能
 [![Image from Gyazo](https://i.gyazo.com/acff9abdf90551d9ec57cc8a0f53f1b0.jpg)](https://gyazo.com/acff9abdf90551d9ec57cc8a0f53f1b0)
 - 料理詳細表示
-[![Image from Gyazo](https://i.gyazo.com/fb28fb2471f05536c25b8a0f9b664b75.jpg)](https://gyazo.com/fb28fb2471f05536c25b8a0f9b664b75)
+[![Image from Gyazo](https://i.gyazo.com/8f1de1e4bea138b4baea7aa466c873fd.jpg)](https://gyazo.com/8f1de1e4bea138b4baea7aa466c873fd)
 - 料理編集.削除機能
-[![Image from Gyazo](https://i.gyazo.com/0f44ac5c480d92d6b9619d6737d37e48.jpg)](https://gyazo.com/0f44ac5c480d92d6b9619d6737d37e48)
+[![Image from Gyazo](https://i.gyazo.com/c47951191af6e4ba4235926f31f32a1c.jpg)](https://gyazo.com/c47951191af6e4ba4235926f31f32a1c)
 - ページネーション機能
 [![Image from Gyazo](https://i.gyazo.com/d3cafef68c6a86cf9eb328ddf620d2df.jpg)](https://gyazo.com/d3cafef68c6a86cf9eb328ddf620d2df)
 
