@@ -42,8 +42,7 @@ Home cooking
 `$ rails db:migrate`  
 
 ## ER図
-[![Image from Gyazo](https://i.gyazo.com/421b5007644355c2aae31f4c42913ce8.png)](https://gyazo.com/421b5007644355c2aae31f4c42913ce8)
-
+[![Image from Gyazo](https://i.gyazo.com/9af27f2d7e498280a875f992cc0d7477.png)](https://gyazo.com/9af27f2d7e498280a875f992cc0d7477)
 
 ## テーブル設計
 
@@ -51,7 +50,7 @@ Home cooking
 
 |column             |Type    |options    |
 |-------------------|--------|-----------|
-|name               |string  |null: false|
+|nickname           |string  |null: false|
 |email              |string  |null: false|
 |encrypted_password |string  |null: false|
 
