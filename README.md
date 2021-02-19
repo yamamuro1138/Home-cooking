@@ -5,7 +5,7 @@ Home cooking
 - ユーザーが投稿した料理投稿を閲覧できるアプリです。
 
 ## URL
-(http://54.199.124.177/)
+http://54.199.124.177/
 ## テスト用アカウント
 - email:     test@com
 - password:  test1111
