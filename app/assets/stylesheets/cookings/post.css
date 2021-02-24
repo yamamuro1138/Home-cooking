@@ -19,7 +19,7 @@
 
 .cooking-post-title{
   text-align: center;
-  font-size: 30px;
+  font-size: 2.3em;
   font-family: monospace;
   margin-left: 0.2vw;
 }
@@ -46,7 +46,7 @@
 }
 
 .post-nickname{
-  font-size: 18px;
+  font-size: 1.1em;
   color: #8B0000;
 }
 
@@ -90,8 +90,8 @@
 .sell-btn{
   background: greenyellow;
   margin: 1.5vh 0 2vh 0;
-  padding: 2px;
-  font-size: 20px;
+  padding: 0.2vh 0.2vw 0.2vh 0.2vw;
+  font-size: 1.3em;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -99,10 +99,10 @@
 .back-btn{
   text-decoration: none;
   margin-left: 48%;
-  padding: 2px;
+  padding: 0.2vh 0.2vw 0.2vh 0.2vw;
   border: solid 2px;
   background: ThreeDHighlight;
-  font-size: 20px;
+  font-size: 1.3em;
   cursor: pointer;
   border-radius: 5px;
 }
