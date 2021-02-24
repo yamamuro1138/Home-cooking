@@ -10,13 +10,15 @@
 }
 
 .actionss{
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 2.7vh 1.5vw 2.7vh 1.5vw;
   margin-left: 22.5vw;
 }
 
 .user-login{
   background: #00DD00;
-  padding: 5px 40px 5px 40px;
+  /* padding: 5px 40px 5px 40px; */
+  padding: 0.6vh 3vw 0.6vh 3vw;
   border-radius: 6px;
 }
 
